@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  csvserver:
+    image: infracloudio/csvserver:latest
+    ports:
+      - "9393:9393"
+    volumes:
+      - ./inputFile:/csvserver/inputFile
+    env_file:
+      - csvserver.env
