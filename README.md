@@ -1,0 +1,6 @@
+# Part I — Manual Docker Run
+
+1. docker pull infracloudio/csvserver:latest
+2. ./gencsv.sh 2 8
+3. docker run ...
+   ...
